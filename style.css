@@ -1,9 +1,18 @@
+
+
+@font-face { /*http://openfontlibrary.org/en/font/jose-carlos-latorre*/
+	font-family: 'Jose';
+	src: url("Assets/Jose.woff") format('woff'),
+       url("Assets/Jose.woff2") format('woff2'),
+       url("Assets/Jose.ttf") format('truetype');
+}
+
 body {
 	text-align: center;
 }
 
 p {
-	font-family: tahoma;
+	font-family: "Jose", Fallback, sans-serif;
 	font-size: 20px;
 	width: 400px;
 	text-align: center;
